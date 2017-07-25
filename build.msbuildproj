@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net46</TargetFramework>
+    <OutDir>.\bin</OutDir>    
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Peachpie.Compiler.Tools" Version="0.7.0-*" />
+    <PackageReference Include="Peachpie.NET.Sdk" Version="0.7.0-*" PrivateAssets="Build" />
+    <PackageReference Include="Peachpie.RequestHandler" Version="0.7.0-*" />
+  </ItemGroup>
+</Project>
